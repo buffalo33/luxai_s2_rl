@@ -1,0 +1,33 @@
+name: luxai_s2-dev
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - numpy
+  - numba
+  - matplotlib
+  - dill
+  - pandas
+  - seaborn
+  - scipy
+  - jupyterlab
+  - pip
+  - ipdb
+  - cython
+  - scikit-learn
+  - tqdm
+  - yaml
+  - ipywidgets
+  - black
+  - isort
+
+  - gym=0.21
+
+  - pip:
+    - pettingzoo
+    - termcolor
+    - opensimplex
+    - pygame
+    - vec_noise
+
